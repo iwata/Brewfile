@@ -16,16 +16,8 @@ install groff
 tap homebrew/versions
 install mysql51  --with-utf8-default
 
-## iwata/alt
-tap iwata/alt
-install git-flow-remote 
-
 ## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
-
-## monochromegane/sg
-tap monochromegane/sg
-install sg 
 
 ## peco/peco
 tap peco/peco
@@ -36,7 +28,6 @@ tap rcmdnk/file
 install brew-file 
 
 # Other Homebrew packages
-install ack
 install android-sdk
 install asciidoc
 install autoconf
