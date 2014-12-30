@@ -1,31 +1,32 @@
+
 # tap repositories and their packages
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask 
+install brew-cask
 cask install boot2docker
 cask install launchrocket
 
 ## homebrew/dupes
 tap homebrew/dupes
-install apple-gcc42 
-install grep 
-install groff 
+install apple-gcc42
+install grep
+install groff
 
 ## homebrew/versions
 tap homebrew/versions
-install mysql51  --with-utf8-default
+install mysql51 --with-utf8-default
 
 ## jimbojsb/launchrocket
 tap jimbojsb/launchrocket
 
 ## peco/peco
 tap peco/peco
-install peco 
+install peco
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file 
+install brew-file
 
 # Other Homebrew packages
 install android-sdk
@@ -81,9 +82,10 @@ install libtool
 install libyaml
 install lua
 install lv
-install macvim --HEAD --with-lua --override-system-vim
+install macvim --costom-icons --with-lua --with-luajit --override-system-vim
 install mad
 install memcached
+install mosh
 install multitail
 install nkf
 install openssl
@@ -97,6 +99,7 @@ install pstree
 install pyenv
 install python --HEAD
 install rbenv
+install rbenv-communal-gems
 install rbenv-gem-rehash
 install rbenv-gemset
 install readline
@@ -123,7 +126,6 @@ install yasm
 install z
 install znc
 install zsh
-install zsh-completions
 install zsh-syntax-highlighting
 
 # App Store applications
